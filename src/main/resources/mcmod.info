@@ -1,0 +1,16 @@
+[
+{
+  "modid": "placeholder",
+  "name": "Placeholder",
+  "description": "PLACEHOLDER",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Toastyblast"],
+  "credits": "Toastyblast for making, Cubicoder for tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
