@@ -1,6 +1,7 @@
 package toastyblast.firstmod.client;
 
 import toastyblast.firstmod.FirstMod;
+import toastyblast.firstmod.init.ModBlocks;
 import toastyblast.firstmod.init.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -15,6 +16,7 @@ public class ModelRegHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.PERIDOT, 0);
+        registerModel(Item.getItemFromBlock(ModBlocks.PERIDOT_BLOCK), 0);
     }
 
     private static void registerModel(Item item, int meta) {
