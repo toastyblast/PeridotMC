@@ -16,7 +16,7 @@ public class ModelRegHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.PERIDOT, 0);
-        registerModel(Item.getItemFromBlock(ModBlocks.PERIDOT_BLOCK), 0);
+        registerModel(Item.getItemFromBlock(ModBlocks.PERIDOT_ORE), 0);
     }
 
     private static void registerModel(Item item, int meta) {

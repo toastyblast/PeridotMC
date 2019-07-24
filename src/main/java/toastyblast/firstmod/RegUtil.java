@@ -11,7 +11,7 @@ public final class RegUtil {
     }
 
     public static Block setBlockName(Block block, String name) {
-        return block.setRegistryName(FirstMod.MODID, name).setUnlocalizedName(FirstMod.MODID + "." + name);
+        return block.setRegistryName(name).setUnlocalizedName(FirstMod.MODID + "." + name);
     }
 
     // ...

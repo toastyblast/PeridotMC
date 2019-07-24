@@ -5,8 +5,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class PeridotBlock extends Block {
-    public PeridotBlock() {
+public class PeridotOre extends Block {
+    public PeridotOre() {
         super(Material.ROCK);
         setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         setSoundType(SoundType.STONE);
