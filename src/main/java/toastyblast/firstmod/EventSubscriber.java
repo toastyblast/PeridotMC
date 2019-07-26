@@ -28,8 +28,8 @@ public final class EventSubscriber {
                 RegUtil.setItemName(new ItemPeridot(), "peridot"),
                 RegUtil.setItemName(new ItemPeridotPickaxe(PeridotMaterials.PERIDOT_TOOL), "peridot_pickaxe"),
                 RegUtil.setItemName(new ItemPeridotSword(PeridotMaterials.PERIDOT_TOOL), "peridot_sword"),
-                // FIXME: Axe swing speed is extremely high (4.0f + the float given below. Fix this).
-//                RegUtil.setItemName(new ItemPeridotAxe(PeridotMaterials.PERIDOT_TOOL, 9.0f, 0.5F), "peridot_axe"),
+                // Axes are a little different. Their base attack speed is 4.0f. So, to make a speed lower than that, pass a negative number. 4.0f - 3.0f for instance makes the attack speed 1.0, for instance.
+                RegUtil.setItemName(new ItemPeridotAxe(PeridotMaterials.PERIDOT_TOOL, 9.0f, -2.9f), "peridot_axe"),
                 RegUtil.setItemName(new ItemPeridotSpade(PeridotMaterials.PERIDOT_TOOL), "peridot_spade"),
                 RegUtil.setItemName(new ItemPeridotHoe(PeridotMaterials.PERIDOT_TOOL), "peridot_hoe")
         };

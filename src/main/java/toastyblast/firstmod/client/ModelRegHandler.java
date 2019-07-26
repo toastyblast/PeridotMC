@@ -18,7 +18,7 @@ public class ModelRegHandler {
         registerModel(ModItems.PERIDOT, 0);
         registerModel(ModItems.PERIDOT_PICKAXE, 0);
         registerModel(ModItems.PERIDOT_SWORD, 0);
-//        registerModel(ModItems.PERIDOT_AXE, 0);
+        registerModel(ModItems.PERIDOT_AXE, 0);
         registerModel(ModItems.PERIDOT_SPADE, 0);
         registerModel(ModItems.PERIDOT_HOE, 0);
         registerModel(Item.getItemFromBlock(ModBlocks.PERIDOT_ORE), 0);
