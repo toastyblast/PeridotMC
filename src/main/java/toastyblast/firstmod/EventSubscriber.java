@@ -24,7 +24,7 @@ public final class EventSubscriber {
     @SubscribeEvent
     public static void registerItems(Register<Item> event) {
         final Item[] items = {
-                RegUtil.setItemName(new Item(), "peridot").setCreativeTab(FirstMod.PERIDOT_TAB)
+                RegUtil.setItemName(new Item(), "peridot").setCreativeTab(FirstMod.PERIDOT_TAB).setCreativeTab(CreativeTabs.MISC)
         };
 
         final Item[] itemBlocks = {
