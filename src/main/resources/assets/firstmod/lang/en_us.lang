@@ -3,3 +3,6 @@ item.firstmod.peridot.name=Peridot
 
 # Blocks
 tile.firstmod.peridot_ore.name=Peridot Ore
+
+# Tabs
+itemGroup.firstmod=Peridot MC
