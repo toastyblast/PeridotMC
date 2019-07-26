@@ -6,8 +6,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import toastyblast.firstmod.FirstMod;
 
-public class PeridotOre extends Block {
-    public PeridotOre() {
+public class BlockPeridotOre extends Block {
+    public BlockPeridotOre() {
         super(Material.ROCK);
         setSoundType(SoundType.STONE);
         // This sets the block only harvestable by using a diamond pickaxe (or better). Worse tools will cause nothing to be dropped.
