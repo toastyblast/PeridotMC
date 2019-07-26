@@ -15,7 +15,7 @@ public final class EventSubscriber {
     @SubscribeEvent
     public static void registerBlocks(Register<Block> event) {
         final Block[] blocks = {
-                RegUtil.setBlockName(new PeridotOre(), "peridot_ore").setCreativeTab(CreativeTabs.BUILDING_BLOCKS)
+                RegUtil.setBlockName(new PeridotOre(), "peridot_ore")
         };
 
         event.getRegistry().registerAll(blocks);
@@ -24,10 +24,8 @@ public final class EventSubscriber {
     @SubscribeEvent
     public static void registerItems(Register<Item> event) {
         final Item[] items = {
-                RegUtil.setItemName(new Item(), "peridot").setCreativeTab(CreativeTabs.MISC)
+                RegUtil.setItemName(new Item(), "peridot").setCreativeTab(FirstMod.PERIDOT_TAB)
         };
-
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" + ModBlocks.PERIDOT_ORE);
 
         final Item[] itemBlocks = {
                 new ItemBlock(ModBlocks.PERIDOT_ORE).setRegistryName(ModBlocks.PERIDOT_ORE.getRegistryName())
