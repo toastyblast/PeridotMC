@@ -1,5 +1,6 @@
 package toastyblast.firstmod;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 
 public final class RegUtil {
@@ -7,6 +8,10 @@ public final class RegUtil {
 
     public static Item setItemName(Item item, String name) {
         return item.setRegistryName(FirstMod.MODID, name).setUnlocalizedName(FirstMod.MODID + "." + name);
+    }
+
+    public static Block setBlockName(Block block, String name) {
+        return block.setRegistryName(name).setUnlocalizedName(FirstMod.MODID + "." + name);
     }
 
     // ...
