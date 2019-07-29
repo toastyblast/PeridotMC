@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import toastyblast.peridotmc.tabs.PeridotTab;
 
-@Mod(modid = PeridotMC.MODID, name = PeridotMC.NAME, version = PeridotMC.VERSION, acceptedMinecraftVersions = PeridotMC.MC_VERSION)
+@Mod(modid = PeridotMC.MODID, name = PeridotMC.NAME, version = PeridotMC.VERSION, acceptedMinecraftVersions = PeridotMC.MC_VERSION, dependencies = "required-after:forge@14.23.5.2768")
 public class PeridotMC {
     public static final String MODID = "peridotmc";
     public static final String NAME = "Peridot MC";

@@ -1,16 +1,20 @@
 [
-{
-  "modid": "placeholder",
-  "name": "Placeholder",
-  "description": "PLACEHOLDER",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Toastyblast"],
-  "credits": "Toastyblast for making, Cubicoder for tutorials",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "peridotmc",
+    "name": "Peridot MC",
+    "description": "First mod ever made by Toastyblast. Adds a new ore and material: Peridot, along with tools, armors and others using this material.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/toastyblast/PeridotMC",
+    "updateUrl": "",
+    "authorList": [
+      "Toastyblast"
+    ],
+    "credits": "Toastyblast for programming & textures, Cubicoder for their tutorials",
+    "logoFile": "/assets/peridotmc/textures/items/peridot.png",
+    "screenshots": [],
+    "dependencies": [
+      "mod_MinecraftForge"
+    ]
+  }
 ]
