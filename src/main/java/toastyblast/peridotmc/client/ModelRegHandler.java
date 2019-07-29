@@ -21,11 +21,15 @@ public class ModelRegHandler {
         registerModel(ModItems.PERIDOT_AXE, 0);
         registerModel(ModItems.PERIDOT_SPADE, 0);
         registerModel(ModItems.PERIDOT_HOE, 0);
+        registerModel(ModItems.PERIDOT_HELMET, 0);
+        registerModel(ModItems.PERIDOT_CHESTPLATE, 0);
+        registerModel(ModItems.PERIDOT_LEGGINGS, 0);
+        registerModel(ModItems.PERIDOT_BOOTS, 0);
+
         registerModel(Item.getItemFromBlock(ModBlocks.PERIDOT_ORE), 0);
     }
 
     private static void registerModel(Item item, int meta) {
-        ModelLoader.setCustomModelResourceLocation(item, meta,
-                new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 }

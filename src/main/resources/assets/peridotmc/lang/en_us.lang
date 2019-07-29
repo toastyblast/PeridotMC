@@ -1,14 +1,21 @@
 # Items
 item.peridotmc.peridot.name=Peridot
 
+# Items - Tools
 item.peridotmc.peridot_pickaxe.name=Peridot Pickaxe
 item.peridotmc.peridot_sword.name=Peridot Sword
 item.peridotmc.peridot_axe.name=Peridot Axe
 item.peridotmc.peridot_spade.name=Peridot Shovel
 item.peridotmc.peridot_hoe.name=Peridot Hoe
 
+# Items - Armor
+item.peridotmc.peridot_helmet.name=Peridot Helmet
+item.peridotmc.peridot_chestplate.name=Peridot Chestplate
+item.peridotmc.peridot_leggings.name=Peridot Leggings
+item.peridotmc.peridot_boots.name=Peridot Boots
+
 # Blocks
 tile.peridotmc.peridot_ore.name=Peridot Ore
 
-# Tabs
+# Creative Tabs
 itemGroup.peridotmc=Peridot MC

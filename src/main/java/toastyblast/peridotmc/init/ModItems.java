@@ -14,5 +14,10 @@ public class ModItems {
     public static final ItemPeridotSpade PERIDOT_SPADE = null;
     public static final ItemPeridotHoe PERIDOT_HOE = null;
 
+    public static final ItemPeridotArmor PERIDOT_HELMET = null;
+    public static final ItemPeridotArmor PERIDOT_CHESTPLATE = null;
+    public static final ItemPeridotArmor PERIDOT_LEGGINGS = null;
+    public static final ItemPeridotArmor PERIDOT_BOOTS = null;
+
     // ...
 }

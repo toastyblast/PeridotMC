@@ -1,6 +1,7 @@
 package toastyblast.peridotmc;
 
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent.Register;
@@ -31,7 +32,11 @@ public final class EventSubscriber {
                 // Axes are a little different. Their base attack speed is 4.0f. So, to make a speed lower than that, pass a negative number. 4.0f - 3.0f for instance makes the attack speed 1.0, for instance.
                 RegUtil.setItemName(new ItemPeridotAxe(PeridotMaterials.PERIDOT_TOOL, 9.0f, -2.9f), "peridot_axe"),
                 RegUtil.setItemName(new ItemPeridotSpade(PeridotMaterials.PERIDOT_TOOL), "peridot_spade"),
-                RegUtil.setItemName(new ItemPeridotHoe(PeridotMaterials.PERIDOT_TOOL), "peridot_hoe")
+                RegUtil.setItemName(new ItemPeridotHoe(PeridotMaterials.PERIDOT_TOOL), "peridot_hoe"),
+                RegUtil.setItemName(new ItemPeridotArmor(PeridotMaterials.PERIDOT_ARMOR, EntityEquipmentSlot.HEAD), "peridot_helmet"),
+                RegUtil.setItemName(new ItemPeridotArmor(PeridotMaterials.PERIDOT_ARMOR, EntityEquipmentSlot.CHEST), "peridot_chestplate"),
+                RegUtil.setItemName(new ItemPeridotArmor(PeridotMaterials.PERIDOT_ARMOR, EntityEquipmentSlot.LEGS), "peridot_leggings"),
+                RegUtil.setItemName(new ItemPeridotArmor(PeridotMaterials.PERIDOT_ARMOR, EntityEquipmentSlot.FEET), "peridot_boots")
         };
 
         final Item[] itemBlocks = {

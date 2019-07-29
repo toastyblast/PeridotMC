@@ -15,7 +15,7 @@ import toastyblast.peridotmc.tabs.PeridotTab;
 public class PeridotMC {
     public static final String MODID = "peridotmc";
     public static final String NAME = "Peridot MC";
-    public static final String VERSION = "0.1.5";
+    public static final String VERSION = "0.1.6.1";
     public static final String MC_VERSION = "[1.12.2]";
 
     public static final Logger LOGGER = LogManager.getLogger(PeridotMC.MODID);
