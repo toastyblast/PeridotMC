@@ -1,6 +1,12 @@
 # Items
 item.firstmod.peridot.name=Peridot
 
+item.firstmod.peridot_pickaxe.name=Peridot Pickaxe
+item.firstmod.peridot_sword.name=Peridot Sword
+item.firstmod.peridot_axe.name=Peridot Axe
+item.firstmod.peridot_spade.name=Peridot Shovel
+item.firstmod.peridot_hoe.name=Peridot Hoe
+
 # Blocks
 tile.firstmod.peridot_ore.name=Peridot Ore
 
