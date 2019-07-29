@@ -1,0 +1,14 @@
+# Items
+item.peridotmc.peridot.name=Peridot
+
+item.peridotmc.peridot_pickaxe.name=Peridot Pickaxe
+item.peridotmc.peridot_sword.name=Peridot Sword
+item.peridotmc.peridot_axe.name=Peridot Axe
+item.peridotmc.peridot_spade.name=Peridot Shovel
+item.peridotmc.peridot_hoe.name=Peridot Hoe
+
+# Blocks
+tile.peridotmc.peridot_ore.name=Peridot Ore
+
+# Tabs
+itemGroup.peridotmc=Peridot MC
